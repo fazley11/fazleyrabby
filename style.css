@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.center {
+  text-align: center;
+  /*中央寄せ*/
+}
+
+h2 {
+  /*タイトル項目*/
+  padding: 0.5em;
+  color: #000000;
+  /*文字色　ブラック*/
+  background: #fdfbfb;
+  /*真ん中の色　グレー*/
+  border-left: solid 7px #eea13d;
+  /*左端の色　オレンジ*/
+  width: 500px;
+  /*横の空白*/
+  margin-left: 180px;
+  /*左寄せ*/
+  border-bottom: solid 7px #ffffff;
+  /*一番下の色　ホワイト*/
+}
+
+main {
+  /*全体*/
+  background-color: rgba(226, 127, 34, 0.1);
+  /*背景色　ピンク*/
+  margin-left: 200px;
+  /*左寄せ*/
+  margin-right: 200px;
+  /*右寄せ*/
+}
+
+.link_button {
+  /*サイトのリンクボタン*/
+  font-weight: bold;
+  text-decoration: none;
+  background: rgb(235, 195, 135);
+  /*背景色　ミルクティー*/
+  color: rgb(255, 255, 255);
+  /*文字　ホワイト*/
+  padding: 5px 10px;
+  /* border-radius: 100px; */
+}
+
+.link_button:hover {
+  background: silver;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  background: #f0f3f5;
+  color: white;
+}
+
+
